@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./Assets/imagens/GLC.png" type="image/x-icon">
+  <title>Decodificador de Texto</title>
+  <link rel="stylesheet" type="text/css" href="./Styles/style.css">
+
+</head>
+
+<body class="principal">
+  
+  <header>
+        <h1><a href="https://portfolioglauciocavalcanti.vercel.app/" target="_blank"><img src="./Assets/imagens/GLC-logo.png" alt="logo Glaucio"></a></h1>
+  </header>
+
+  <main>
+    <section class="area-texto">
+      <div class="texto">
+        <textarea id="texto-inserido" name="caixatexto" value="" rows="4" cols="33" maxlength="140" placeholder="Digite o texto aqui!"></textarea>
+      </div>
+
+      <div class="obs">
+        <img src="./Assets/imagens/ifo.png" alt="info">
+        <p>Apenas letras minúsculas e sem acento.</p>
+      </div>
+      
+      <div class="botoes">
+        <button id="botao-cripto" onclick="Criptografar()" type="text" name="criptografar">Criptografar</button>
+        <button id="botao-descripto" onclick="Descriptografar()" type="text" name="descriptografar">Descriptografar</button>
+      </div>
+
+    </section>
+
+    <section class="barra-lateral">
+      <div class="info">
+        <div class="bloco">
+          <img id="imagem" src="./Assets/imagens/Erro.png" alt="nenhuma mensagem encontrada">
+          <h3 id="campo">Nenhuma mensagem encontrada</h3>
+          <p id="texto-trocar">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+
+        <div id="adicionar-botao" style="display: none;">
+          <button id="botao-copiar" onclick="CopiarTexto()" type="text" name="copiar"> Copiar </button>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="./Assets/Script.js"></script>
+
+  <footer>
+    <a href="https://github.com/GlaucioCavalcanti" target="_blank"><img src="./Assets/imagens/Github.png" height="20px"></a>
+    <a href="https://www.linkedin.com/in/glaucio-luiz-cavalcanti-47049a44/" target="_blank>"><img src="/Assets/imagens/Linkedin.png" alt="LinkedIn"></a>
+    <a href="mailto:glaucio_de_libra@hotmail.com" target="_blank>"><img src="./Assets/imagens/Email.png" alt="Email"></a>
+    <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5581982300294" target="_blank"><img src="./Assets/imagens/Whatsapp.png"></a>Alura, Turma #7 - Glaucio Cavalcanti, Recife-PE - 2024.
+  </footer>
+  
+  
+</body>
+</html>
