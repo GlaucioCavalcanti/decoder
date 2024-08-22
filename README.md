@@ -43,4 +43,5 @@ Entrega do Desafio
  Para outros projestos construídos ao longo dos estudos visitar:
 
  https://game-gray-eta.vercel.app/
- https://portfolioglauciocavalcanti.vercel.app/index.html
+ <p>https://portfolioglauciocavalcanti.vercel.app/index.html</p>
+ 
